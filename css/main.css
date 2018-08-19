@@ -38,6 +38,7 @@ figure img {
 .with-hr:before {
   content: " ";
   border: 1px solid black;
+  background: #000;
   margin-top: 15px;
   margin-bottom: 30px;
   display: block;
@@ -56,7 +57,30 @@ figure img {
  line-height: 2em;
 }
 
-h3 {
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #446187;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #446187;
+  text-align: center;
+  transition: button-animation 0.2s;
+}
+
+i.fa-file-pdf-o {
+  padding: 0;
+}
+
+a.button1:hover {
+  color: #fff;
+  background-color: #446187;
+}
+
+h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }

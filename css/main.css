@@ -1128,6 +1128,14 @@ footer {
   ul.vNav {
     display: none;
   }
+  #bio {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+  .skillset-paragraph {
+    text-align: left;
+  }
   #intro .content {
     margin: 0 4%;
     top: 50%;

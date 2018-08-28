@@ -42,7 +42,6 @@ $(document).ready(function ($) {
 
   $('.skillbar').each(function(){
     var offset = '101' - $(this).attr('data-percent').split('%')[0] + '%';
-    console.log(offset)
     $(this).find('.skill-bar-percent').css('right', offset)
 		$(this).find('.skillbar-bar').animate({
       width:$(this).attr('data-percent')

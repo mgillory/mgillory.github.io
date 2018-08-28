@@ -1125,6 +1125,9 @@ footer {
 }
 
 @media screen and (min-width : 480px) and (max-width : 540px) {
+  ul.vNav {
+    display: none;
+  }
   #intro .content {
     margin: 0 4%;
     top: 50%;
